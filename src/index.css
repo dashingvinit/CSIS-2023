@@ -38,9 +38,10 @@
   background-image: linear-gradient(225deg, #ff2882, #ff0303);
   filter: drop-shadow(0 20px 30px #28d8ff33);
   color: black;
-  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  -webkit-box-decoration-break: clone;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
 }
 
 .bg-blue-gradient {

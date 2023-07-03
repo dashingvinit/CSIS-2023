@@ -16,13 +16,13 @@ import {
 import { Routes, Router } from 'react-router-dom';
 
 const Home = () => (
-  <div className="bg-primary w-full overflow-hidden">
-    <div className={`${styles.paddingX} ${styles.flexCenter}`}>
-      <div className={`${styles.boxWidth}`}>
+  <div className="bg-primary w-full  overflow-hidden">
+    <div className={`${styles.paddingX} ${styles.flexCenter} `}>
+      <div className={`${styles.boxWidth} z-50`}>
         <Navbar />
       </div>
     </div>
-    <div className={`bg-primary ${styles.flexStart}`}>
+    <div className={`bg-primary ${styles.flexStart} z-0`}>
       <div className={`${styles.boxWidth}`}>
         <Hero />
       </div>
