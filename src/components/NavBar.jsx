@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-
 import { close, logo, menu } from '../assets';
 import { navLinks } from '../constants';
 
@@ -8,7 +7,9 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 z-20 justify-between items-center Navbar">
-      <img src={logo} alt="CSIS2023" className="w-[124px] h-[50px]" />
+      <a href={'/'}>
+        <img src={logo} alt="CSIS2023" className="w-[124px] h-[50px]" />
+      </a>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

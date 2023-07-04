@@ -24,6 +24,12 @@ import twitter from './twitter.svg';
 import people01 from './people01.png';
 import people02 from './people02.png';
 import people03 from './people03.png';
+import favicon from './favicon.png';
+import video from './video.mp4';
+import IEEECSSYP from './IEEECSSYP.png';
+import IEEECUSBLogo from './IEEECUSBLogo.png';
+import Tech from './Tech.png';
+import Techinvent from './Techinvent.png';
 
 export {
   airbnb,
@@ -32,6 +38,7 @@ export {
   card,
   coinbase,
   dropbox,
+  video,
   logo,
   quotes,
   robot,
@@ -52,4 +59,9 @@ export {
   people01,
   people02,
   people03,
+  favicon,
+  Techinvent,
+  Tech,
+  IEEECSSYP,
+  IEEECUSBLogo,
 };
