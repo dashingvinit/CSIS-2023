@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './style';
 import { leads } from './constants';
-import { video } from './assets';
+// import { video } from './assets';
 import {
   Navbar,
   Billing,

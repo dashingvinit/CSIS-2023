@@ -10,7 +10,7 @@ const Pages = () => {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/timeline" element={<Timeline />} />
+        {/* <Route path="/timeline" element={<Timeline />} /> */}
         <Route path="/leads" element={<Team />} />
         <Route path="/register" element={<Register />} />
       </Routes>

@@ -25,7 +25,7 @@ import people01 from './people01.png';
 import people02 from './people02.png';
 import people03 from './people03.png';
 import favicon from './favicon.png';
-import video from './video.mp4';
+// import video from './video.mp4';
 import IEEECSSYP from './IEEECSSYP.png';
 import IEEECUSBLogo from './IEEECUSBLogo.png';
 import Tech from './Tech.png';
@@ -57,7 +57,7 @@ export {
   card,
   coinbase,
   dropbox,
-  video,
+  // video,
   logo,
   quotes,
   robot,

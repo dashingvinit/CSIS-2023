@@ -7,8 +7,8 @@ import { SiGmail } from 'react-icons/si';
 const FeedbackCard = ({ linkedin, name, lead, icon }) => (
   <>
     <section className="   font-medium  gap-3">
-      <section className="flex flex-col w-64 bg-black-gradient-2 rounded-2xl px-3 gap-1 m-5 py-6 shadow-lg">
-        <div className="flex items-center justify-between    ">
+      <section className="flex flex-col w-64 bg-black-gradient-2  rounded-2xl px-3 gap-1 m-5 py-6 shadow-lg">
+        <div className="flex items-center justify-between ">
           <span className="text-gray-400 text-sm">CSIS 2023</span>
           <span className="text-emerald-400">
             <svg
@@ -46,23 +46,25 @@ const FeedbackCard = ({ linkedin, name, lead, icon }) => (
           <div className="h-1 rounded-full w-2/5 bg-yellow-500 " />
         </div>
 
-        <div className="flex flex-row justify-center items-center mt-3 gap-5 text-white">
+        <div className="flex flex-row justify-between items-center mt-3 gap-5 text-white">
           <div>
             <h1 className="self-center text-sm">{lead}</h1>
           </div>
-          <div>
-            <a
-              href={linkedin}
-              className="font-bold transition-all text-2xl text-white mt-5 hover:scale-110">
-              <FaLinkedin />
-            </a>
-          </div>
-          <div>
-            <a
-              href={linkedin}
-              className="font-bold transition-all text-2xl text-white mt-5 hover:scale-110">
-              <SiGmail />
-            </a>
+          <div className="flex flex-row gap-3">
+            <div>
+              <a
+                href={linkedin}
+                className="font-bold transition-all text-2xl text-white mt-5 hover:scale-110">
+                <FaLinkedin />
+              </a>
+            </div>
+            <div>
+              <a
+                href={linkedin}
+                className="font-bold transition-all text-2xl text-white mt-5 hover:scale-110">
+                <SiGmail />
+              </a>
+            </div>
           </div>
         </div>
         {/* <span className="text-gray-400 font-semibold">Storage:</span>

@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './style';
-import { video } from './assets';
 import { leads } from './constants';
 import { Navbar, Footer, TeamCards } from './components';
 
