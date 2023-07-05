@@ -11,6 +11,7 @@ import {
   Footer,
   Testimonials,
   Hero,
+  Registration,
 } from './components';
 
 const Register = () => {
@@ -22,19 +23,20 @@ const Register = () => {
         </div>
       </div>
       <div className={`bg-primary ${styles.flexStart} z-0`}>
-        <div className={`${styles.boxWidth}`}>
+        {/* <div className={`${styles.boxWidth}`}>
           <Hero />
-        </div>
+        </div> */}
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <h1>About page</h1>
+          <Registration />
+          {/* 
           <Business />
           <Billing />
           <CardDeal />
           <Testimonials />
+          <CTA /> */}
           <Clients />
-          <CTA />
           <Footer />
         </div>
       </div>

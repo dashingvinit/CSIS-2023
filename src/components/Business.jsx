@@ -26,6 +26,7 @@ const FeatureCard = ({ index, title, content, icon }) => (
 const Business = () => {
   return (
     <section id="features" className={layout.section}>
+      <div className="absolute z-[0] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient" />
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>
           Empowering Innovators, <br className="sm:block hidden" /> Igniting

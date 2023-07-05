@@ -6,10 +6,6 @@ import {
   instagram,
   linkedin,
   twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
   Techinvent,
   Tech,
   IEEECSSYP,
@@ -17,6 +13,16 @@ import {
   send,
   shield,
   star,
+  dipesh,
+  shivam,
+  prabhjot,
+  amit,
+  sugandha,
+  riya,
+  lakshay,
+  lavanya,
+  simran,
+  anchal,
 } from '../assets';
 
 export const navLinks = [
@@ -223,15 +229,15 @@ export const leads = [
     lead: 'Lead Visionary',
     email: '',
     linkedin: 'https://www.linkedin.com/in/utkarsh-siddharth-5bb11b126',
-    icon: 'lv.png',
+    icon: dipesh,
   },
   {
     id: '2',
     name: 'Lakshay Chawla',
-    title: 'Lead',
+    lead: 'Lead',
     email: 'lakshaychawla@ieee.org',
     linkedin: 'https://www.linkedin.com/in/lakshaychawla/',
-    icon: 'lv.png',
+    icon: lakshay,
   },
   {
     id: '3',
@@ -239,7 +245,7 @@ export const leads = [
     lead: 'Program Lead',
     email: 'lavanyasaini@ieee.org',
     linkedin: 'https://www.linkedin.com/in/lavanya-saini-366231258/',
-    icon: 'lv.png',
+    icon: lavanya,
   },
   {
     id: '4',
@@ -255,7 +261,7 @@ export const leads = [
     lead: 'Documentation Lead',
     email: 'sinhadipesh25@gmail.com',
     linkedin: 'https://www.linkedin.com/in/dipesh-ranjan/',
-    icon: 'lv.png',
+    icon: dipesh,
   },
   {
     id: '6',
@@ -263,7 +269,7 @@ export const leads = [
     lead: 'Treasurer Lead',
     email: 'shivamchopra020403@ieee.org',
     linkedin: 'https://www.linkedin.com/in/shivam-chopra-020403/',
-    icon: 'lv.png',
+    icon: shivam,
   },
   {
     id: '7',
@@ -271,7 +277,7 @@ export const leads = [
     lead: 'Website Lead',
     email: 'riyasingh@ieee.org',
     linkedin: 'https://www.linkedin.com/in/riya-singh-415a45253/',
-    icon: 'lv.png',
+    icon: riya,
   },
   {
     id: '8',
@@ -279,7 +285,7 @@ export const leads = [
     lead: 'Graphics Lead',
     email: 'prabhsingh2209@gmail.com',
     linkedin: 'https://www.linkedin.com/in/prabhjot-singh-590b54249',
-    icon: 'lv.png',
+    icon: prabhjot,
   },
   {
     id: '9',
@@ -287,7 +293,7 @@ export const leads = [
     lead: 'Anchoring and Moderation Lead',
     email: 'simrankaur@ieee.org',
     linkedin: 'https://www.linkedin.com/in/simran-kaur-b92252193',
-    icon: 'lv.png',
+    icon: simran,
   },
   {
     id: '10',
@@ -295,7 +301,7 @@ export const leads = [
     lead: 'Operations Lead',
     email: 'anchaltanwar89@gmail.com',
     linkedin: 'https://www.linkedin.com/in/anchal-singh-tanwar-858b21228',
-    icon: 'lv.png',
+    icon: anchal,
   },
 
   {

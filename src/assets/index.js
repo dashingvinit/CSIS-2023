@@ -30,8 +30,27 @@ import IEEECSSYP from './IEEECSSYP.png';
 import IEEECUSBLogo from './IEEECUSBLogo.png';
 import Tech from './Tech.png';
 import Techinvent from './Techinvent.png';
+import dipesh from './dipesh.png';
+import shivam from './shivam.png';
+import prabhjot from './prabhjot.png';
+import amit from './amit.png';
+import sugandha from './sugandha.png';
+import riya from './riya.png';
+import lakshay from './lakshay.png';
+import lavanya from './lavanya.png';
+import simran from './simran.png';
+import anchal from './anchal.png';
 
 export {
+  anchal,
+  shivam,
+  prabhjot,
+  amit,
+  sugandha,
+  riya,
+  lakshay,
+  lavanya,
+  simran,
   airbnb,
   bill,
   binance,
@@ -64,4 +83,5 @@ export {
   Tech,
   IEEECSSYP,
   IEEECUSBLogo,
+  dipesh,
 };
