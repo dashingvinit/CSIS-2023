@@ -11,8 +11,10 @@ import Hero from './Hero';
 import Loading from './Loading';
 import Timeline from './Timeline';
 import Events from './Events';
+import TeamCards from './TeamCards';
 
 export {
+  TeamCards,
   Events,
   Navbar,
   Billing,

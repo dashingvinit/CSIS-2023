@@ -1,20 +1,8 @@
 import React from 'react';
 import styles from './style';
-import Timeline from './components/Timeline';
 import { video } from './assets';
 import { leads } from './constants';
-import {
-  Navbar,
-  Billing,
-  CardDeal,
-  Business,
-  Clients,
-  CTA,
-  Stats,
-  Footer,
-  Testimonials,
-  Hero,
-} from './components';
+import { Navbar, Footer, TeamCards } from './components';
 
 const Teams = () => {
   return (
@@ -24,18 +12,16 @@ const Teams = () => {
           <Navbar />
         </div>
       </div>
-      <video className="w-full absolute " autoPlay loop muted>
+
+      {/* <video className="w-full fixed " autoPlay loop muted>
         <source src={video} type="video/mp4" />
-      </video>
+      </video> */}
       <div className={`bg-primary ${styles.flexStart} z-0`}>
-        <div className={`${styles.boxWidth}`}>
-          <Timeline objects={leads} />
-        </div>
+        <div className={`${styles.boxWidth}`}></div>
       </div>
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
-          <h1>About page</h1>
-
+          <TeamCards Objects={leads} />
           <Footer />
         </div>
       </div>

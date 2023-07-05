@@ -13,7 +13,7 @@ const Timeline = ({ objects }) => {
         {objects.map((object) => (
           <VerticalTimelineElement
             key={object.id}
-            className="vertical-timeline-element--work "
+            className="vertical-timeline-element--work  "
             contentStyle={{
               background:
                 'linear-gradient(-168.39deg,#ffffff -278.56%,#6d6d6d -78.47%,#1d1d10 91.61%',

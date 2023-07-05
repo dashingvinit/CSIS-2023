@@ -29,12 +29,12 @@ const Register = () => {
       <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
         <div className={`${styles.boxWidth}`}>
           <h1>About page</h1>
-          {/* <Business />
+          <Business />
           <Billing />
           <CardDeal />
           <Testimonials />
           <Clients />
-          <CTA /> */}
+          <CTA />
           <Footer />
         </div>
       </div>

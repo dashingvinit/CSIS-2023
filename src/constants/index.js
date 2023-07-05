@@ -25,17 +25,17 @@ export const navLinks = [
     title: 'Home',
   },
   {
-    id: 'timeline',
-    title: 'Schedule',
+    id: 'register',
+    title: 'Register',
   },
   {
     id: 'leads',
     title: 'Leads',
   },
-  {
-    id: 'register',
-    title: 'Register',
-  },
+  // {
+  //   id: 'timeline',
+  //   title: 'Schedule',
+  // },
 ];
 
 export const features = [
@@ -228,7 +228,7 @@ export const leads = [
   {
     id: '2',
     name: 'Lakshay Chawla',
-    lead: 'Lead',
+    title: 'Lead',
     email: 'lakshaychawla@ieee.org',
     linkedin: 'https://www.linkedin.com/in/lakshaychawla/',
     icon: 'lv.png',

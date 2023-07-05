@@ -19,16 +19,20 @@ import {
 
 const About = () => {
   return (
-    <div className="bg-primary w-full h-full overflow-hidden bg-black">
+    <div className="bg-primary w-full h-full overflow-hidden ">
       <div className={`${styles.paddingX} ${styles.flexCenter} `}>
         <div className={`${styles.boxWidth}  z-50`}>
           <Navbar />
         </div>
       </div>
       <div>
-        <video className="w-full fixed -z-10" autoPlay loop muted>
+        {/* <video
+          className="w-full bg-black h-100 w-100 fixed "
+          autoPlay
+          loop
+          muted>
           <source src={video} type="video/mp4" />
-        </video>
+        </video> */}
 
         <div className={`bg-primary ${styles.flexStart} z-0`}>
           <div className={`${styles.boxWidth}`}>
@@ -37,9 +41,8 @@ const About = () => {
         </div>
         <div className={`bg-primary ${styles.paddingX} ${styles.flexStart}`}>
           <div className={`${styles.boxWidth}`}>
-            <Events />
             <Timeline objects={leads} />
-
+            <Events />
             {/* <h1 className="text-white">Events timeline for CSIS 2023</h1>
             <Business />
             <Billing />
